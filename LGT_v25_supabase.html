@@ -923,11 +923,11 @@ function closeCS(){document.getElementById('csPopup').classList.remove('show');}
 <div class="sb-setup-bar" id="sbSetupBar">
   <div class="sb-dot off" id="sbDot"></div>
   <div class="sb-status-txt" id="sbStatusTxt">Supabase 미연결 — 실시간 기능 비활성</div>
-  <button class="sb-setup-btn" onclick="openSbCfg()">연결 설정</button>
+
 </div>
 
 <!-- Supabase 설정 오버레이 -->
-<div class="sb-cfg-overlay" id="sbCfgOverlay">
+<div class="sb-cfg-overlay" id="sbCfgOverlay" style="display:none!important;">
   <div class="sb-cfg-box">
     <div class="sb-cfg-title">⚡ Supabase 연동 설정</div>
     <div class="sb-cfg-desc">
